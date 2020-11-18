@@ -7,9 +7,10 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
 % for dataset = ['p' 'a' 'r' '$' 'n' '-' '!' 'l' 'z' '#' 'o' 'g' 'm' 'k' 'f' 'q' 'j' 'y' 'd' 'x' 's' ')' 'c' '>' 'b' '4' 'v' '(' 'i' '?' ',' '&' '8' '@' '<' 'e' '3' '1' '%' '0' '7' 'w' '^' '6' '*' 'h' '2' 'u' 't' '9' '5']
 % for dataset = ['a' 'r' '-' '!' 'l' 'o' 'g' 'k' 'q' 'j' 's' ')' 'c' 'b' '4' '?' ',' '&' '8' '@' '<' 'e' '3' '6' '*' 'u']
 % for dataset = ['<' 'e' '3']
-%for dataset = ['a' 'r' '-' '!' 'l' 'o' 'g' 'q' 'j' 's' ')' 'c' 'b' '4' '?' '8'  '3' '#' '_' '@' '+' '!' ]
-
-for dataset = [  '@']
+%for dataset = ['a' 'r' '-'  'l' 'o' 'g' 'k' 'q' 'j' 's' ')' 'c' 'b' '4' '?' '3' '#' '_' '@' '+' '!' ]
+ for dataset = ['q' 'j' 's' ')' 'c' 'b' '4' '?' '3' '#' '_' '@' '+' '!' ]
+    
+    %for dataset = ['-']
     cc = power(2,-5);
     number_neighbours=5;
     no_of_fold=10;
@@ -26,7 +27,7 @@ for dataset = [  '@']
         clabel = [1 2];
         data = dlmread('appendicitis.dat');
         file = 'appendicitis.txt';
-        no_of_feature = 3;
+        no_of_feature = 5;
         [pathstr,name,ext] = fileparts(file);
     end
     if (isequal(dataset,'b'))
@@ -34,7 +35,7 @@ for dataset = [  '@']
         nclass = 2;
         clabel = [1 2];
         data = dlmread('australian.dat');
-        no_of_feature=10;
+        no_of_feature=7;
         file = 'australian.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -59,14 +60,14 @@ for dataset = [  '@']
         clabel = [1 2 3 4 5];
         data = dlmread('cleveland.dat');
         file = 'cleveland.txt';
-        no_of_feature = 10;
+        no_of_feature = 4;
         [pathstr,name,ext] = fileparts(file);
     end
     if (isequal(dataset,'j'))
         nclass = 6;
         clabel = [1 2 3 4 5 6];
         data = dlmread('dermatology_formatted.txt');
-        no_of_feature=34;
+        no_of_feature=6;
         file = 'dermatology_formatted.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -82,7 +83,7 @@ for dataset = [  '@']
         nclass = 6;
         clabel = [1 2 3 4 5 6];
         data = dlmread('glass.txt');
-        no_of_feature=6;
+        no_of_feature=2;
         file = 'glass.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -90,14 +91,14 @@ for dataset = [  '@']
         nclass = 2;
         clabel = [1 2];
         data = dlmread('heart.txt');
-        no_of_feature=8;
+        no_of_feature=4;
         file = 'heart.txt';
         [pathstr,name,ext] = fileparts(file);
     end
     if (isequal(dataset,'q'))
         nclass = 2;
         clabel = [1 2];
-        no_of_feature=33;
+        no_of_feature=14;
         data = dlmread('ionosphere.data');
         file = 'ionosphere.txt';
         [pathstr,name,ext] = fileparts(file);
@@ -107,7 +108,7 @@ for dataset = [  '@']
         nclass = 3;
         clabel = [1 2 3];
         data = dlmread('iris.data');
-        no_of_feature=4;
+        no_of_feature=2;
         file = 'iris.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -124,7 +125,7 @@ for dataset = [  '@']
         nclass = 10;
         clabel = [1 2 3 4 5 6 7 8 9 10];
         data = dlmread('led7digit.dat');
-        no_of_feature = 7;
+        no_of_feature = 5;
         file = 'led7digit.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -172,7 +173,7 @@ for dataset = [  '@']
         clabel = [1 2];
         data = dlmread('sonar data lebel first10fold.txt');
         file = 'sonar data lebel first10fold.txt';
-        no_of_feature=12;
+        no_of_feature=8;
         [pathstr,name,ext] = fileparts(file);
     end
     if (isequal(dataset,'%'))
@@ -200,7 +201,7 @@ for dataset = [  '@']
         nclass = 10;
         clabel = [1 2 3 4 5 6 7 8 9 10];
         data = dlmread('Cardio.txt');
-        no_of_feature=20;
+        no_of_feature=10;
         file = 'Cardio.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -209,7 +210,7 @@ for dataset = [  '@']
         nclass = 3;
         clabel = [1 2 3];
         data = dlmread('waveform.txt');
-        no_of_feature=21;
+        no_of_feature=9;
         file = 'waveform.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -218,7 +219,7 @@ for dataset = [  '@']
         nclass = 2;
         clabel = [1 2];
         data = dlmread('Parkinsons.txt');
-        no_of_feature=15;
+        no_of_feature=12;
         file = 'Parkinsons.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -235,7 +236,7 @@ for dataset = [  '@']
         nclass = 2;
         clabel = [1 2];
         data = dlmread('breast.txt');
-        no_of_feature=25;
+        no_of_feature=6;
         file = 'breast.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -243,7 +244,7 @@ for dataset = [  '@']
         nclass = 2;
         clabel = [1 2];
         data = dlmread('wdbc.dat');
-        no_of_feature  = 25;
+        no_of_feature  = 5;
         file = 'wdbc.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -252,7 +253,7 @@ for dataset = [  '@']
         nclass = 3;
         clabel = [1 2 3];
         data = dlmread('wine.data');
-        no_of_feature=12;
+        no_of_feature=4;
         file = 'wine.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -274,7 +275,7 @@ for dataset = [  '@']
         nclass = 10;
         clabel = [1 2 3 4 5 6 7 8 9 10];
         data = dlmread('yeast.data');
-        no_of_feature=8;
+        no_of_feature=7;
         file = 'yeast.txt';
         [pathstr,name,ext] = fileparts(file);
     end
@@ -285,6 +286,14 @@ for dataset = [  '@']
     fclose(fid);
     y = data(:,1); %class id
     xa = data(:, 2:end); %feature
+    
+    %     Xmax = max(xa);
+    %     Xmin = min(xa);
+    %     Xdiff = Xmax-Xmin;
+    %
+    %     fea_mean = mean(xa);
+    %     %xa = bsxfun(@rdivide,bsxfun(@minus,xa,mean(xa)),Xdiff);
+    
     %[xa edges] = equal_width_quantization(xa, 5);
     % feature normalization
     %         f_min = min(xa);    f_max = max(xa);    f_tmp = f_max-f_min;
@@ -338,6 +347,13 @@ for dataset = [  '@']
         ts_fea = xa(ts_idx, :);
         ts_label = Sapp(ts_idx);
         
+        Xmax = max(tr_fea);
+        Xmin = min(tr_fea);
+        Xdiff = Xmax-Xmin;
+        
+        fea_mean = mean(tr_fea);
+        tr_fea = bsxfun(@rdivide,bsxfun(@minus,tr_fea,fea_mean),Xdiff);
+        
         %%%%%%%%%%%%%%%%%%%%% Equal Width %%%%%%%%%%%%%%%%%%%%%%%%%%%%
         %                 [tr_fea edges] = equal_width_quantization(tr_fea, 5);
         %                 for ii=1:size(tr_fea,2)
@@ -355,15 +371,19 @@ for dataset = [  '@']
         %             ts_fea = newts_fea;
         %
         
-         matfile = strcat('mat\',name,'.mat');
-       pp = load(matfile);
-        no_feature = size(pp.aa{:,kk},2);
-       
-        %[sel_feature,score] = rank(tr_fea, tr_label);
-        %[sel_feature score]= rank(tr_fea,tr_label);
+        matfile = strcat('mat\',name,'.mat');
         
-         [sel_feature, score] = relieff(tr_fea,tr_label,7,'method','classification');
-         sel_feature = sel_feature(1:no_feature);
+        
+        [sel_feature] = selection_ttest(tr_fea, tr_label);
+        aa{kk}= sel_feature;
+        %         tt{kk} = score;
+        save(matfile,'aa');
+        
+        %
+        %[sel_feature, score] = relieff(tr_fea,tr_label,7,'method','classification');
+        % % %                 pp = load(matfile);
+        % % %         no_feature = size(pp.aa{:,kk},2);
+        %   sel_feature = sel_feature(1:4);
         %         [tr_fea edges] = equal_width_quantization(tr_fea, 5);
         %         for ii=1:size(tr_fea,2)
         %             discretized(:,ii) = discretize(ts_fea(:,ii), edges(:,ii));
@@ -371,18 +391,20 @@ for dataset = [  '@']
         %         ts_fea = discretized;
         %
         
-%         if isempty(sel_feature)
-%             continue;
-%         end
+        %         if isempty(sel_feature)
+        %             continue;
+        %         end
         
-%         aa{kk}= sel_feature;
-%         tt{kk} = score;
-%         save(matfile,'aa','tt');
+        
         %                     pp = load(matfile);
         %                     sel_feature = pp.aa{:,kk};
         %              sel_feature=sel_feature(:,1:9);
         %       sel_feature = sel_feature(1:3);
         %
+        
+        
+        
+        ts_fea = bsxfun(@rdivide,bsxfun(@minus,ts_fea,fea_mean),Xdiff);
         
         tr_fea1 = tr_fea(:,sel_feature);
         tr_label = Sapp(tr_idx);
