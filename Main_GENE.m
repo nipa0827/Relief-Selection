@@ -5,7 +5,7 @@ addpath('Libsvm/matlab');
 addpath('D:\MS THESIS\Data');
 addpath('data/mat');
 %addpath('D:\MS THESIS\code\Relief\data\balanced data')
-for dataset = ['1' '2']
+for dataset = ['5' '6' '7' '9']
     cc = power(2,-5);
     number_neighbours=5;
     LOO=0;
@@ -140,6 +140,7 @@ for dataset = ['1' '2']
     
     
     xa = data(:, 2:end);
+    temp = xa;
     
     %     Xmax = max(xa);
     %     Xmin = min(xa);
@@ -147,7 +148,12 @@ for dataset = ['1' '2']
     %
     %     xa = bsxfun(@rdivide,bsxfun(@minus,xa,mean(xa)),Xdiff);
     
+    %     matfile = strcat('mat\',name,'.mat');
+    %     pp = load(matfile);
+    %     selectedFeatures = pp.aa{zz,kk};
     count=1;
+    %
+    %xa = xa(:,selectedFeatures);
     for ii=1:size(xa,2)
         if length(unique(xa(:,ii)))==1
             temp1(count)=ii;
@@ -280,6 +286,12 @@ for dataset = ['1' '2']
             
             for kk=1:no_of_fold
                 
+                matfile = strcat('mat\',name,'.mat');
+                pp = load(matfile);
+                features = pp.aa{zz,kk};
+                xa = temp;
+                xa = xa(:,features);
+                
                 tr_idx = [];
                 ts_idx = [];
                 
@@ -304,10 +316,21 @@ for dataset = ['1' '2']
                 ts_label = zeros(length(ts_idx), 1);
                 
                 
+                tr_fea_original = zeros(length(tr_idx), dim);
+                tr_label_original = zeros(length(tr_idx), 1);
+                ts_fea_original = zeros(length(ts_idx), dim);
+                ts_label_original = zeros(length(ts_idx), 1);
+                
+                tr_fea_original = temp(tr_idx,:);
+                tr_label_original = Sapp(tr_idx);
+                ts_fea_original = temp(ts_idx,:);
+                ts_label_original = Sapp(ts_idx);
+                
                 tr_fea = xa(tr_idx,:);
                 tr_label = Sapp(tr_idx);
                 ts_fea = xa(ts_idx,:);
                 ts_label = Sapp(ts_idx);
+                
                 % tic
                 %%%%%%%%%%%%%%%%%%%%%%% Equal Width %%%%%%%%%%%%%%%%%%%%%%%%%%%%
                 %             %[tr_fea, edges] = equal_width_quantization(tr_fea, 3);
@@ -334,9 +357,11 @@ for dataset = ['1' '2']
                 %                 end
                 % no_of_feature = feature(kk);
                 % [selectedFeatures,score] = relieff(tr_fea, tr_label,7,'method','classification');
-                [selectedFeatures,score] =p_value_rank(tr_fea, tr_label);
+                %[selectedFeatures,score] =selection_ttest(tr_fea, tr_label);
+                [selectedFeatures,score] =feature_rank(tr_fea, tr_label,7);
+                selectedFeatures = features(selectedFeatures);
                 %
-                matfile = strcat('mat\',name,'.mat');
+                matfile = strcat('mat\',name,'_greedy_class','.mat');
                 %                 pp = load(matfile);
                 %                 selectedFeatures = pp.aa{zz,kk};
                 %                 selectedFeatures = selectedFeatures(1:no_of_feature);
@@ -351,8 +376,8 @@ for dataset = ['1' '2']
                 
                 
                 
-                tr_fea = tr_fea(:, selectedFeatures);
-                ts_fea = ts_fea(:, selectedFeatures);
+                tr_fea = tr_fea_original(:, selectedFeatures);
+                ts_fea = ts_fea_original(:, selectedFeatures);
                 
                 % % %KNN
                 model2 = fitcknn(tr_fea,tr_label);

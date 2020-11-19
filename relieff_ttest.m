@@ -240,12 +240,13 @@ Xmin = min(X);
 Xdiff = Xmax-Xmin;
 
 % Exclude single-valued attributes
-isOneValue = Xdiff < eps(Xmax);
-if all(isOneValue)
-    ranked = 1:p;
-    weight = NaN(1,p);
-    return;
-end
+ isOneValue = Xdiff < 0;
+% isOneValue = zeros(1,p);
+% if all(isOneValue)
+%     ranked = 1:p;
+%     weight = NaN(1,p);
+%     return;
+% end
 X(:,isOneValue) = [];
 Xdiff(isOneValue) = [];
 rejected = find(isOneValue);
@@ -291,8 +292,9 @@ function [attrWeights,hit,miss] = RelieffClass(scaledX,C,classProb,numUpdates,K,
 [numObs,numAttr] = size(scaledX);
 attrWeights = zeros(1,numAttr);
 Nlev = size(C,2);
-hit = zeros(size(scaledX,1),numAttr);
-miss = zeros(size(scaledX,1),numAttr);
+hit = Inf(size(scaledX,1),numAttr);
+miss = Inf(size(scaledX,1),numAttr);
+
 
 % Choose the random instances
 rndIdx = randsample(numObs,numUpdates);
@@ -362,12 +364,14 @@ for i = 1:numUpdates
     %***************** ATTRIBUTE UPDATE *****************************
     % Inner loop to update weights for each attribute:
     
+    cls = find(thisC==1);
+    
     for j = 1:numAttr
         dH = diffH(j,scaledX,thisObs,Hits,dist1D,sigma)/numUpdates;
-        hit(i,j) = hit(i,j)+diffH(j,scaledX,thisObs,Hits,dist1D,sigma);
+        hit(i,j) = diffH(j,scaledX,thisObs,Hits,dist1D,sigma);
         %temp = (-diffH(j,scaledX,thisObs,Hits,dist1D,sigma) + diffM(j,scaledX,thisObs,Misses,dist1D,sigma,classProb))/numUpdates;
         dM = diffM(j,scaledX,thisObs,Misses,dist1D,sigma,classProb)/numUpdates;
-        miss(i,j) = miss(i,j) + diffM(j,scaledX,thisObs,Misses,dist1D,sigma,classProb);
+        miss(i,j) =  diffM(j,scaledX,thisObs,Misses,dist1D,sigma,classProb);
         attrWeights(j) = attrWeights(j) -dH+dM;
     end
     %****************************************************************

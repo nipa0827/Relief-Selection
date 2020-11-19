@@ -1,0 +1,277 @@
+
+Dataset: appendicitis
+
+Dataset: appendicitis
+
+Dataset: appendicitis
+Iter---> 1: accu: 0.750000	accu(knn): 0.750000	accu(dt): 0.833333	sel: 2	 rval:0.174772	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.750000	accu(knn): 0.750000	accu(dt): 0.833333	sel: 2	 rval:0.235562	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.750000	accu(knn): 0.750000	accu(dt): 0.750000	sel: 2	 rval:0.194529	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.750000	accu(knn): 0.833333	accu(dt): 0.750000	sel: 2	 rval:0.208207	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.750000	accu(knn): 0.666667	accu(dt): 0.750000	sel: 2	 rval:0.188450	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.750000	accu(knn): 0.833333	accu(dt): 0.666667	sel: 2	 rval:0.156535	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.750000	accu(knn): 0.750000	accu(dt): 0.666667	sel: 2	 rval:0.214286	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.750000	accu(knn): 0.833333	accu(dt): 0.833333	sel: 2	 rval:0.238602	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.750000	accu(knn): 0.833333	accu(dt): 0.750000	sel: 2	 rval:0.214286	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.750000	accu(knn): 0.666667	accu(dt): 0.750000	sel: 2	 rval:0.193009	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.750000	avg accu(knn): 0.766667	accu(dt): 0.758333	sel: 2.000000	 rval:0.201824	stability : 0.000000
+
+Dataset: iris
+Iter---> 1: accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.866667	sel: 1	 rval:0.048677	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 1.000000	accu(knn): 0.933333	accu(dt): 1.000000	sel: 1	 rval:0.063492	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.933333	sel: 1	 rval:0.060317	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 1	 rval:0.060317	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 1	 rval:0.066667	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.933333	sel: 1	 rval:0.070899	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 1	 rval:0.067725	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 1.000000	accu(knn): 0.933333	accu(dt): 1.000000	sel: 1	 rval:0.063492	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.933333	sel: 1	 rval:0.057143	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 1.000000	accu(knn): 0.933333	accu(dt): 1.000000	sel: 1	 rval:0.060317	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.960000	avg accu(knn): 0.913333	accu(dt): 0.953333	sel: 1.000000	 rval:0.061905	stability : 0.000000
+
+Dataset: wine
+Iter---> 1: accu: 1.000000	accu(knn): 0.842105	accu(dt): 0.947368	sel: 2	 rval:0.071878	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.842105	accu(knn): 0.684211	accu(dt): 0.684211	sel: 2	 rval:0.060198	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.842105	accu(knn): 0.789474	accu(dt): 0.789474	sel: 2	 rval:0.063792	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.789474	accu(knn): 0.684211	accu(dt): 0.789474	sel: 2	 rval:0.053010	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.736842	accu(knn): 0.684211	accu(dt): 0.631579	sel: 2	 rval:0.061995	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.789474	accu(knn): 0.684211	accu(dt): 0.789474	sel: 2	 rval:0.061995	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.789474	accu(knn): 0.684211	accu(dt): 0.736842	sel: 2	 rval:0.055705	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.842105	accu(knn): 0.789474	accu(dt): 0.947368	sel: 2	 rval:0.062893	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.947368	accu(knn): 0.473684	accu(dt): 0.789474	sel: 2	 rval:0.061096	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 1.000000	accu(knn): 0.789474	accu(dt): 0.842105	sel: 2	 rval:0.061096	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.857895	avg accu(knn): 0.710526	accu(dt): 0.794737	sel: 2.000000	 rval:0.061366	stability : 0.000000
+
+Dataset: glass
+Iter---> 1: accu: 0.565217	accu(knn): 0.391304	accu(dt): 0.608696	sel: 2	 rval:0.386687	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.521739	accu(knn): 0.608696	accu(dt): 0.695652	sel: 2	 rval:0.378459	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.478261	accu(knn): 0.608696	accu(dt): 0.608696	sel: 2	 rval:0.384443	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.521739	accu(knn): 0.521739	accu(dt): 0.652174	sel: 2	 rval:0.381451	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.739130	accu(knn): 0.782609	accu(dt): 0.782609	sel: 2	 rval:0.405385	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.608696	accu(knn): 0.608696	accu(dt): 0.608696	sel: 2	 rval:0.379207	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.478261	accu(knn): 0.608696	accu(dt): 0.608696	sel: 2	 rval:0.360509	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.478261	accu(knn): 0.608696	accu(dt): 0.695652	sel: 2	 rval:0.376215	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.521739	accu(knn): 0.478261	accu(dt): 0.565217	sel: 2	 rval:0.384443	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.478261	accu(knn): 0.391304	accu(dt): 0.565217	sel: 2	 rval:0.377711	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.539130	avg accu(knn): 0.560870	accu(dt): 0.639130	sel: 2.000000	 rval:0.381451	stability : 0.000000
+
+Dataset: heart
+Iter---> 1: accu: 0.777778	accu(knn): 0.555556	accu(dt): 0.777778	sel: 3	 rval:0.228689	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.703704	accu(knn): 0.555556	accu(dt): 0.703704	sel: 3	 rval:0.238683	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.740741	accu(knn): 0.629630	accu(dt): 0.777778	sel: 3	 rval:0.243974	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.814815	accu(knn): 0.555556	accu(dt): 0.777778	sel: 3	 rval:0.251617	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.666667	accu(knn): 0.555556	accu(dt): 0.592593	sel: 3	 rval:0.245150	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.851852	accu(knn): 0.555556	accu(dt): 0.814815	sel: 3	 rval:0.231628	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.740741	accu(knn): 0.555556	accu(dt): 0.740741	sel: 3	 rval:0.225750	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.777778	accu(knn): 0.555556	accu(dt): 0.777778	sel: 3	 rval:0.246914	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.814815	accu(knn): 0.555556	accu(dt): 0.814815	sel: 3	 rval:0.248089	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.703704	accu(knn): 0.555556	accu(dt): 0.703704	sel: 3	 rval:0.244562	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.759259	avg accu(knn): 0.562963	accu(dt): 0.748148	sel: 3.000000	 rval:0.240506	stability : 0.000000
+
+Dataset: cleveland
+Iter---> 1: accu: 0.562500	accu(knn): 0.531250	accu(dt): 0.593750	sel: 4	 rval:0.465229	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.531250	accu(knn): 0.500000	accu(dt): 0.500000	sel: 4	 rval:0.467925	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.531250	accu(knn): 0.562500	accu(dt): 0.531250	sel: 4	 rval:0.480863	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.437500	accu(knn): 0.593750	accu(dt): 0.562500	sel: 4	 rval:0.469542	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.625000	accu(knn): 0.562500	accu(dt): 0.593750	sel: 4	 rval:0.476011	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.593750	accu(knn): 0.468750	accu(dt): 0.500000	sel: 4	 rval:0.475472	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.500000	accu(knn): 0.437500	accu(dt): 0.531250	sel: 4	 rval:0.465229	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.625000	accu(knn): 0.500000	accu(dt): 0.562500	sel: 4	 rval:0.478167	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.500000	accu(knn): 0.500000	accu(dt): 0.500000	sel: 4	 rval:0.490027	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.593750	accu(knn): 0.593750	accu(dt): 0.593750	sel: 4	 rval:0.476011	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.550000	avg accu(knn): 0.525000	accu(dt): 0.546875	sel: 4.000000	 rval:0.474447	stability : 0.000000
+
+Dataset: ionosphere
+Iter---> 1: accu: 0.833333	accu(knn): 0.805556	accu(dt): 0.916667	sel: 8	 rval:0.146939	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.805556	accu(knn): 0.916667	accu(dt): 0.861111	sel: 8	 rval:0.138322	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.750000	accu(knn): 0.944444	accu(dt): 0.916667	sel: 8	 rval:0.136054	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.638889	accu(knn): 0.805556	accu(dt): 0.805556	sel: 8	 rval:0.138776	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.916667	accu(knn): 0.861111	accu(dt): 0.888889	sel: 8	 rval:0.136508	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.861111	accu(knn): 0.833333	accu(dt): 0.861111	sel: 8	 rval:0.129705	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.833333	accu(knn): 0.944444	accu(dt): 0.861111	sel: 8	 rval:0.132880	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.861111	accu(knn): 0.916667	accu(dt): 0.944444	sel: 8	 rval:0.145125	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.722222	accu(knn): 0.777778	accu(dt): 0.805556	sel: 8	 rval:0.131066	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.750000	accu(knn): 0.861111	accu(dt): 0.861111	sel: 8	 rval:0.128345	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.797222	avg accu(knn): 0.866667	accu(dt): 0.872222	sel: 8.000000	 rval:0.136372	stability : 0.000000
+
+Dataset: dermatology_formatted
+Iter---> 1: accu: 0.750000	accu(knn): 0.775000	accu(dt): 0.750000	sel: 8	 rval:0.054338	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.800000	accu(knn): 0.825000	accu(dt): 0.775000	sel: 8	 rval:0.067046	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.800000	accu(knn): 0.800000	accu(dt): 0.750000	sel: 8	 rval:0.060911	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.775000	accu(knn): 0.800000	accu(dt): 0.775000	sel: 8	 rval:0.062226	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.800000	accu(knn): 0.800000	accu(dt): 0.775000	sel: 8	 rval:0.066608	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.800000	accu(knn): 0.825000	accu(dt): 0.775000	sel: 8	 rval:0.063103	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.850000	accu(knn): 0.825000	accu(dt): 0.775000	sel: 8	 rval:0.059597	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.825000	accu(knn): 0.800000	accu(dt): 0.800000	sel: 8	 rval:0.058282	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.675000	accu(knn): 0.800000	accu(dt): 0.650000	sel: 8	 rval:0.063103	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.800000	accu(knn): 0.800000	accu(dt): 0.725000	sel: 8	 rval:0.059159	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.787500	avg accu(knn): 0.805000	accu(dt): 0.755000	sel: 8.000000	 rval:0.061437	stability : 0.000000
+
+Dataset: led7digit
+Iter---> 1: accu: 0.400000	accu(knn): 0.145455	accu(dt): 0.381818	sel: 2	 rval:0.404173	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.290909	accu(knn): 0.163636	accu(dt): 0.309091	sel: 2	 rval:0.406742	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.363636	accu(knn): 0.090909	accu(dt): 0.363636	sel: 2	 rval:0.400321	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.345455	accu(knn): 0.090909	accu(dt): 0.345455	sel: 2	 rval:0.381701	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.272727	accu(knn): 0.090909	accu(dt): 0.272727	sel: 2	 rval:0.399679	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.363636	accu(knn): 0.127273	accu(dt): 0.345455	sel: 2	 rval:0.396469	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.381818	accu(knn): 0.090909	accu(dt): 0.363636	sel: 2	 rval:0.387480	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.327273	accu(knn): 0.090909	accu(dt): 0.327273	sel: 2	 rval:0.397432	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.345455	accu(knn): 0.145455	accu(dt): 0.327273	sel: 2	 rval:0.395506	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.290909	accu(knn): 0.090909	accu(dt): 0.290909	sel: 2	 rval:0.389406	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.338182	avg accu(knn): 0.112727	accu(dt): 0.332727	sel: 2.000000	 rval:0.395891	stability : 0.000000
+
+Dataset: wdbc
+Iter---> 1: accu: 0.965517	accu(knn): 0.896552	accu(dt): 0.931034	sel: 7	 rval:0.051719	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 1.000000	accu(knn): 0.982759	accu(dt): 0.982759	sel: 7	 rval:0.054515	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.965517	accu(knn): 0.965517	accu(dt): 0.982759	sel: 7	 rval:0.056472	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.948276	accu(knn): 0.931034	accu(dt): 0.931034	sel: 7	 rval:0.046408	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.896552	accu(knn): 0.913793	accu(dt): 0.879310	sel: 7	 rval:0.049203	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.965517	accu(knn): 0.931034	accu(dt): 0.931034	sel: 7	 rval:0.050881	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.965517	accu(knn): 0.931034	accu(dt): 0.896552	sel: 7	 rval:0.051999	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.965517	accu(knn): 0.982759	accu(dt): 0.913793	sel: 7	 rval:0.049762	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.982759	accu(knn): 0.948276	accu(dt): 0.965517	sel: 7	 rval:0.056751	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.931034	accu(knn): 0.965517	accu(dt): 0.931034	sel: 7	 rval:0.048924	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.958621	avg accu(knn): 0.944828	accu(dt): 0.934483	sel: 7.000000	 rval:0.051663	stability : 0.000000
+
+Dataset: balance
+Iter---> 1: accu: 0.619048	accu(knn): 0.079365	accu(dt): 0.619048	sel: 1	 rval:0.251906	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.555556	accu(knn): 0.079365	accu(dt): 0.555556	sel: 1	 rval:0.250381	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.619048	accu(knn): 0.079365	accu(dt): 0.650794	sel: 1	 rval:0.251398	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.507937	accu(knn): 0.079365	accu(dt): 0.587302	sel: 1	 rval:0.255465	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.650794	accu(knn): 0.079365	accu(dt): 0.650794	sel: 1	 rval:0.252669	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.634921	accu(knn): 0.079365	accu(dt): 0.634921	sel: 1	 rval:0.255719	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.619048	accu(knn): 0.079365	accu(dt): 0.619048	sel: 1	 rval:0.254448	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.698413	accu(knn): 0.079365	accu(dt): 0.698413	sel: 1	 rval:0.261057	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.603175	accu(knn): 0.079365	accu(dt): 0.603175	sel: 1	 rval:0.255974	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.666667	accu(knn): 0.079365	accu(dt): 0.666667	sel: 1	 rval:0.256228	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.617460	avg accu(knn): 0.079365	accu(dt): 0.628571	sel: 1.000000	 rval:0.254525	stability : 0.000000
+
+Dataset: australian
+Iter---> 1: accu: 0.785714	accu(knn): 0.657143	accu(dt): 0.728571	sel: 4	 rval:0.180645	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.914286	accu(knn): 0.685714	accu(dt): 0.900000	sel: 4	 rval:0.198618	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.857143	accu(knn): 0.714286	accu(dt): 0.842857	sel: 4	 rval:0.189171	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.928571	accu(knn): 0.685714	accu(dt): 0.928571	sel: 4	 rval:0.197926	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.885714	accu(knn): 0.685714	accu(dt): 0.857143	sel: 4	 rval:0.203917	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.871429	accu(knn): 0.700000	accu(dt): 0.871429	sel: 4	 rval:0.196774	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.871429	accu(knn): 0.728571	accu(dt): 0.885714	sel: 4	 rval:0.197005	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.900000	accu(knn): 0.814286	accu(dt): 0.885714	sel: 4	 rval:0.195392	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.857143	accu(knn): 0.642857	accu(dt): 0.800000	sel: 4	 rval:0.189171	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.885714	accu(knn): 0.614286	accu(dt): 0.842857	sel: 4	 rval:0.195392	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.875714	avg accu(knn): 0.692857	accu(dt): 0.854286	sel: 4.000000	 rval:0.194401	stability : 0.000000
+
+Dataset: pima-indians-diabetes
+Iter---> 1: accu: 0.740260	accu(knn): 0.649351	accu(dt): 0.610390	sel: 2	 rval:0.315485	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.714286	accu(knn): 0.597403	accu(dt): 0.662338	sel: 2	 rval:0.325615	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.818182	accu(knn): 0.662338	accu(dt): 0.662338	sel: 2	 rval:0.326649	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.740260	accu(knn): 0.649351	accu(dt): 0.753247	sel: 2	 rval:0.322927	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.779221	accu(knn): 0.597403	accu(dt): 0.688312	sel: 2	 rval:0.324788	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.701299	accu(knn): 0.571429	accu(dt): 0.688312	sel: 2	 rval:0.320240	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.766234	accu(knn): 0.675325	accu(dt): 0.649351	sel: 2	 rval:0.332024	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.675325	accu(knn): 0.493506	accu(dt): 0.558442	sel: 2	 rval:0.320447	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.792208	accu(knn): 0.649351	accu(dt): 0.636364	sel: 2	 rval:0.336572	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.753247	accu(knn): 0.662338	accu(dt): 0.675325	sel: 2	 rval:0.322514	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.748052	avg accu(knn): 0.620779	accu(dt): 0.658442	sel: 2.000000	 rval:0.324726	stability : 0.000000
+
+Dataset: Segment
+Iter---> 1: accu: 0.917749	accu(knn): 0.896104	accu(dt): 0.978355	sel: 5	 rval:0.071807	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.917749	accu(knn): 0.917749	accu(dt): 0.974026	sel: 5	 rval:0.067958	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.935065	accu(knn): 0.943723	accu(dt): 0.969697	sel: 5	 rval:0.070020	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.917749	accu(knn): 0.900433	accu(dt): 0.969697	sel: 5	 rval:0.068439	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.917749	accu(knn): 0.900433	accu(dt): 0.965368	sel: 5	 rval:0.069951	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.926407	accu(knn): 0.909091	accu(dt): 0.965368	sel: 5	 rval:0.070226	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.878788	accu(knn): 0.891775	accu(dt): 0.956710	sel: 5	 rval:0.069676	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.900433	accu(knn): 0.909091	accu(dt): 0.978355	sel: 5	 rval:0.070570	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.935065	accu(knn): 0.917749	accu(dt): 0.974026	sel: 5	 rval:0.069470	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.926407	accu(knn): 0.900433	accu(dt): 0.952381	sel: 5	 rval:0.070501	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.917316	avg accu(knn): 0.908658	accu(dt): 0.968398	sel: 5.000000	 rval:0.069862	stability : 0.000000
+
+Dataset: phoneme
+Iter---> 1: accu: 0.706100	accu(knn): 0.685767	accu(dt): 0.661738	sel: 1	 rval:0.163685	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.706100	accu(knn): 0.678373	accu(dt): 0.663586	sel: 1	 rval:0.169208	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.706100	accu(knn): 0.696858	accu(dt): 0.678373	sel: 1	 rval:0.167886	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.706100	accu(knn): 0.702403	accu(dt): 0.682070	sel: 1	 rval:0.165066	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.706100	accu(knn): 0.704251	accu(dt): 0.682070	sel: 1	 rval:0.163744	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.706100	accu(knn): 0.698706	accu(dt): 0.669131	sel: 1	 rval:0.162892	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.706100	accu(knn): 0.706100	accu(dt): 0.687616	sel: 1	 rval:0.167034	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.706100	accu(knn): 0.693161	accu(dt): 0.680222	sel: 1	 rval:0.166681	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.706100	accu(knn): 0.704251	accu(dt): 0.691312	sel: 1	 rval:0.165418	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.706100	accu(knn): 0.706100	accu(dt): 0.678373	sel: 1	 rval:0.164919	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.706100	avg accu(knn): 0.697597	accu(dt): 0.677449	sel: 1.000000	 rval:0.165653	stability : 0.000000
+
+Dataset: Cardio
+Iter---> 1: accu: 0.344037	accu(knn): 0.591743	accu(dt): 0.711009	sel: 5	 rval:0.325322	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.348624	accu(knn): 0.559633	accu(dt): 0.743119	sel: 5	 rval:0.327793	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.371560	accu(knn): 0.495413	accu(dt): 0.752294	sel: 5	 rval:0.326595	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.385321	accu(knn): 0.605505	accu(dt): 0.738532	sel: 5	 rval:0.321953	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.408257	accu(knn): 0.614679	accu(dt): 0.729358	sel: 5	 rval:0.323600	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.376147	accu(knn): 0.518349	accu(dt): 0.743119	sel: 5	 rval:0.320231	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.362385	accu(knn): 0.614679	accu(dt): 0.788991	sel: 5	 rval:0.322327	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.431193	accu(knn): 0.577982	accu(dt): 0.761468	sel: 5	 rval:0.323450	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.339450	accu(knn): 0.568807	accu(dt): 0.779817	sel: 5	 rval:0.321953	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.362385	accu(knn): 0.610092	accu(dt): 0.775229	sel: 5	 rval:0.324798	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.372936	avg accu(knn): 0.575688	accu(dt): 0.752294	sel: 5.000000	 rval:0.323802	stability : 0.000000
+
+Dataset: waveform
+Iter---> 1: accu: 0.772455	accu(knn): 0.686627	accu(dt): 0.702595	sel: 5	 rval:0.244499	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.730539	accu(knn): 0.660679	accu(dt): 0.698603	sel: 5	 rval:0.239196	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.734531	accu(knn): 0.652695	accu(dt): 0.668663	sel: 5	 rval:0.237037	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.798403	accu(knn): 0.690619	accu(dt): 0.678643	sel: 5	 rval:0.242213	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.774451	accu(knn): 0.666667	accu(dt): 0.678643	sel: 5	 rval:0.239990	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.736527	accu(knn): 0.660679	accu(dt): 0.680639	sel: 5	 rval:0.237259	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.766467	accu(knn): 0.680639	accu(dt): 0.688623	sel: 5	 rval:0.242657	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.778443	accu(knn): 0.690619	accu(dt): 0.678643	sel: 5	 rval:0.240212	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.742515	accu(knn): 0.660679	accu(dt): 0.674651	sel: 5	 rval:0.239196	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.732535	accu(knn): 0.638723	accu(dt): 0.684631	sel: 5	 rval:0.241673	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.756687	avg accu(knn): 0.668862	accu(dt): 0.683433	sel: 5.000000	 rval:0.240393	stability : 0.000000
+
+Dataset: Parkinsons
+Iter---> 1: accu: 0.900000	accu(knn): 0.850000	accu(dt): 0.850000	sel: 6	 rval:0.146122	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.950000	accu(knn): 0.850000	accu(dt): 1.000000	sel: 6	 rval:0.151837	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.850000	accu(knn): 0.900000	accu(dt): 0.850000	sel: 6	 rval:0.131429	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.600000	accu(knn): 0.700000	accu(dt): 0.600000	sel: 6	 rval:0.132245	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.950000	accu(knn): 0.850000	accu(dt): 0.950000	sel: 6	 rval:0.144490	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.950000	accu(knn): 0.850000	accu(dt): 0.850000	sel: 6	 rval:0.142857	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.900000	accu(knn): 0.950000	accu(dt): 0.900000	sel: 6	 rval:0.146122	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.850000	accu(knn): 0.800000	accu(dt): 0.900000	sel: 6	 rval:0.137143	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.800000	accu(knn): 0.800000	accu(dt): 0.850000	sel: 6	 rval:0.137959	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.750000	accu(knn): 0.850000	accu(dt): 0.950000	sel: 6	 rval:0.137143	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.850000	avg accu(knn): 0.840000	accu(dt): 0.870000	sel: 6.000000	 rval:0.140735	stability : 0.000000
+
+Dataset: steel
+Iter---> 1: accu: 0.611111	accu(knn): 0.590909	accu(dt): 0.631313	sel: 7	 rval:0.337104	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.590909	accu(knn): 0.671717	accu(dt): 0.606061	sel: 7	 rval:0.340300	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.636364	accu(knn): 0.666667	accu(dt): 0.691919	sel: 7	 rval:0.344890	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.540404	accu(knn): 0.631313	accu(dt): 0.676768	sel: 7	 rval:0.331858	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.535354	accu(knn): 0.540404	accu(dt): 0.646465	sel: 7	 rval:0.334563	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.590909	accu(knn): 0.606061	accu(dt): 0.666667	sel: 7	 rval:0.341120	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.560606	accu(knn): 0.555556	accu(dt): 0.661616	sel: 7	 rval:0.335382	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.555556	accu(knn): 0.575758	accu(dt): 0.616162	sel: 7	 rval:0.338415	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.550505	accu(knn): 0.469697	accu(dt): 0.671717	sel: 7	 rval:0.339153	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.429293	accu(knn): 0.676768	accu(dt): 0.636364	sel: 7	 rval:0.337759	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.560101	avg accu(knn): 0.598485	accu(dt): 0.650505	sel: 7.000000	 rval:0.338054	stability : 0.000000
+
+Dataset: breast
+Iter---> 1: accu: 0.965517	accu(knn): 0.931034	accu(dt): 0.913793	sel: 8	 rval:0.051999	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 1.000000	accu(knn): 0.948276	accu(dt): 0.982759	sel: 8	 rval:0.052558	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.965517	accu(knn): 0.931034	accu(dt): 0.982759	sel: 8	 rval:0.055354	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.948276	accu(knn): 0.896552	accu(dt): 0.913793	sel: 8	 rval:0.046128	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.896552	accu(knn): 0.862069	accu(dt): 0.913793	sel: 8	 rval:0.048085	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.965517	accu(knn): 0.913793	accu(dt): 0.913793	sel: 8	 rval:0.051440	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.965517	accu(knn): 0.896552	accu(dt): 0.913793	sel: 8	 rval:0.051719	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.965517	accu(knn): 0.913793	accu(dt): 0.913793	sel: 8	 rval:0.049203	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.982759	accu(knn): 0.965517	accu(dt): 0.982759	sel: 8	 rval:0.054795	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.913793	accu(knn): 0.982759	accu(dt): 0.913793	sel: 8	 rval:0.049483	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.956897	avg accu(knn): 0.924138	accu(dt): 0.934483	sel: 8.000000	 rval:0.051076	stability : 0.000000
+
+Dataset: sonar data lebel first10fold
+Iter---> 1: accu: 0.772727	accu(knn): 0.954545	accu(dt): 0.818182	sel: 15	 rval:0.261905	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: accu: 0.772727	accu(knn): 0.818182	accu(dt): 0.772727	sel: 15	 rval:0.263441	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: accu: 0.909091	accu(knn): 0.954545	accu(dt): 0.772727	sel: 15	 rval:0.260369	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: accu: 0.727273	accu(knn): 0.772727	accu(dt): 0.681818	sel: 15	 rval:0.267281	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: accu: 0.727273	accu(knn): 0.863636	accu(dt): 0.727273	sel: 15	 rval:0.254992	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: accu: 0.681818	accu(knn): 0.636364	accu(dt): 0.772727	sel: 15	 rval:0.242704	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: accu: 0.863636	accu(knn): 0.818182	accu(dt): 0.772727	sel: 15	 rval:0.266513	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: accu: 0.909091	accu(knn): 0.863636	accu(dt): 0.636364	sel: 15	 rval:0.265745	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: accu: 0.863636	accu(knn): 0.909091	accu(dt): 0.818182	sel: 15	 rval:0.255760	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: accu: 0.727273	accu(knn): 0.681818	accu(dt): 0.863636	sel: 15	 rval:0.268817	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.795455	avg accu(knn): 0.827273	accu(dt): 0.763636	sel: 15.000000	 rval:0.260753	stability : 0.000000

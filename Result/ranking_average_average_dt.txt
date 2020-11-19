@@ -1,0 +1,704 @@
+
+Dataset: SRBCT
+
+Number of selected feature: 5
+Iter---> 1: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.923077	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.923077	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 1.000000	accu(knn): 0.923077	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.996923	avg accu(knn): 0.998462	accu(dt): 0.938462	sel: 5.000000	stability : 0.000000
+Class-1 accu(svm): 0.993333	avg accu(knn): 0.996667	accu(dt): 0.903333	sel: 5.000000	stability : 0.000000
+Class-2 accu(svm): 1.000000	avg accu(knn): 1.000000	accu(dt): 0.960000	sel: 5.000000	stability : 0.000000
+Class-3 accu(svm): 1.000000	avg accu(knn): 1.000000	accu(dt): 0.975000	sel: 5.000000	stability : 0.000000
+Class-4 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+
+Dataset: colon
+
+Number of selected feature: 5
+Iter---> 1: number----> 1:  accu: 0.769231	accu(knn): 0.461538	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 0.692308	accu(knn): 0.615385	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.923077	accu(knn): 0.923077	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 0.846154	accu(knn): 0.846154	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.692308	accu(knn): 0.615385	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 0.846154	accu(knn): 0.615385	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.846154	accu(knn): 0.769231	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 0.846154	accu(knn): 0.461538	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.846154	accu(knn): 0.846154	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.692308	accu(knn): 0.692308	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.846154	accu(knn): 0.615385	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 0.769231	accu(knn): 0.769231	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.846154	accu(knn): 0.615385	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.692308	accu(knn): 0.615385	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 0.692308	accu(knn): 0.692308	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 0.846154	accu(knn): 0.769231	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.769231	accu(knn): 0.769231	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 0.769231	accu(knn): 0.615385	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 0.846154	accu(knn): 0.846154	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.923077	accu(knn): 0.538462	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.923077	accu(knn): 0.846154	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.692308	accu(knn): 0.692308	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.692308	accu(knn): 0.692308	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.769231	accu(knn): 0.769231	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 0.846154	accu(knn): 0.538462	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 0.769231	accu(knn): 0.692308	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 0.769231	accu(knn): 0.846154	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.769231	accu(knn): 0.692308	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.846154	accu(knn): 0.846154	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 0.923077	accu(knn): 0.769231	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.769231	accu(knn): 0.692308	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.692308	accu(knn): 0.538462	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.769231	accu(knn): 0.538462	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.846154	accu(knn): 0.846154	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 1.000000	accu(knn): 0.769231	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.846154	accu(knn): 0.692308	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.692308	accu(knn): 0.615385	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.769231	accu(knn): 0.461538	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 1.000000	accu(knn): 0.846154	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.923077	accu(knn): 0.538462	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 0.846154	accu(knn): 0.692308	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.769231	accu(knn): 0.692308	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 1.000000	accu(knn): 0.692308	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 1.000000	accu(knn): 0.923077	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.923077	accu(knn): 0.692308	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 0.846154	accu(knn): 0.769231	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 0.846154	accu(knn): 0.692308	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 1.000000	accu(knn): 0.461538	accu(dt): 1.000000	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.923077	accu(knn): 0.692308	accu(dt): 0.923077	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.923077	accu(knn): 0.615385	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.827692	avg accu(knn): 0.690769	accu(dt): 0.812308	sel: 5.000000	stability : 0.000000
+Class-1 accu(svm): 0.764000	avg accu(knn): 0.848000	accu(dt): 0.704000	sel: 5.000000	stability : 0.000000
+Class-2 accu(svm): 0.867500	avg accu(knn): 0.592500	accu(dt): 0.880000	sel: 5.000000	stability : 0.000000
+Class-3 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-4 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+
+Dataset: lymphoma
+
+Number of selected feature: 3
+Iter---> 1: number----> 1:  accu: 0.416667	accu(knn): 0.416667	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 0.500000	accu(knn): 0.458333	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.500000	accu(knn): 0.375000	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 0.375000	accu(knn): 0.416667	accu(dt): 0.416667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.583333	accu(knn): 0.541667	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 0.541667	accu(knn): 0.500000	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.500000	accu(knn): 0.333333	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 0.541667	accu(knn): 0.541667	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.500000	accu(knn): 0.416667	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.625000	accu(knn): 0.625000	accu(dt): 0.625000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.458333	accu(knn): 0.500000	accu(dt): 0.375000	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 0.458333	accu(knn): 0.416667	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.583333	accu(knn): 0.416667	accu(dt): 0.583333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.458333	accu(knn): 0.333333	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 0.541667	accu(knn): 0.541667	accu(dt): 0.583333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 0.375000	accu(knn): 0.583333	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.500000	accu(knn): 0.458333	accu(dt): 0.625000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 0.541667	accu(knn): 0.416667	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 0.583333	accu(knn): 0.458333	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.583333	accu(knn): 0.583333	accu(dt): 0.625000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.500000	accu(knn): 0.625000	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.541667	accu(knn): 0.375000	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.625000	accu(knn): 0.458333	accu(dt): 0.666667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.583333	accu(knn): 0.500000	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 0.625000	accu(knn): 0.625000	accu(dt): 0.708333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 0.333333	accu(knn): 0.375000	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 0.541667	accu(knn): 0.416667	accu(dt): 0.666667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.500000	accu(knn): 0.541667	accu(dt): 0.666667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.541667	accu(knn): 0.416667	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 0.583333	accu(knn): 0.583333	accu(dt): 0.708333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.500000	accu(knn): 0.458333	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.541667	accu(knn): 0.416667	accu(dt): 0.583333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.583333	accu(knn): 0.375000	accu(dt): 0.625000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.500000	accu(knn): 0.416667	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 0.625000	accu(knn): 0.666667	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.458333	accu(knn): 0.458333	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.541667	accu(knn): 0.375000	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.583333	accu(knn): 0.541667	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 0.541667	accu(knn): 0.416667	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.583333	accu(knn): 0.583333	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 0.458333	accu(knn): 0.458333	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.541667	accu(knn): 0.375000	accu(dt): 0.500000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 0.625000	accu(knn): 0.458333	accu(dt): 0.583333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.458333	accu(knn): 0.333333	accu(dt): 0.458333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.541667	accu(knn): 0.625000	accu(dt): 0.583333	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 0.458333	accu(knn): 0.541667	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 0.583333	accu(knn): 0.375000	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.583333	accu(knn): 0.458333	accu(dt): 0.625000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.583333	accu(knn): 0.500000	accu(dt): 0.541667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.625000	accu(knn): 0.625000	accu(dt): 0.666667	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.529167	avg accu(knn): 0.474167	accu(dt): 0.541667	sel: 3.000000	stability : 0.000000
+Class-1 accu(svm): 0.912000	avg accu(knn): 0.910000	accu(dt): 0.856000	sel: 3.000000	stability : 0.000000
+Class-2 accu(svm): 0.400000	avg accu(knn): 0.420000	accu(dt): 0.430000	sel: 3.000000	stability : 0.000000
+Class-3 accu(svm): 0.190000	avg accu(knn): 0.340000	accu(dt): 0.390000	sel: 3.000000	stability : 0.000000
+Class-4 accu(svm): 0.773333	avg accu(knn): 0.120000	accu(dt): 0.560000	sel: 3.000000	stability : 0.000000
+Class-5 accu(svm): 0.020000	avg accu(knn): 0.100000	accu(dt): 0.320000	sel: 3.000000	stability : 0.000000
+Class-6 accu(svm): 0.020000	avg accu(knn): 0.000000	accu(dt): 0.190000	sel: 3.000000	stability : 0.000000
+Class-7 accu(svm): 0.000000	avg accu(knn): 0.000000	accu(dt): 0.000000	sel: 3.000000	stability : 0.000000
+Class-8 accu(svm): 0.000000	avg accu(knn): 0.200000	accu(dt): 0.100000	sel: 3.000000	stability : 0.000000
+Class-9 accu(svm): 0.000000	avg accu(knn): 0.000000	accu(dt): 0.000000	sel: 3.000000	stability : 0.000000
+
+Dataset: Lung
+
+Number of selected feature: 7
+Iter---> 1: number----> 1:  accu: 0.790698	accu(knn): 0.790698	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 0.837209	accu(knn): 0.790698	accu(dt): 0.860465	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.860465	accu(knn): 0.674419	accu(dt): 0.744186	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 0.860465	accu(knn): 0.790698	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.744186	accu(knn): 0.674419	accu(dt): 0.674419	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 0.767442	accu(knn): 0.767442	accu(dt): 0.697674	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.860465	accu(knn): 0.767442	accu(dt): 0.860465	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 0.883721	accu(knn): 0.813953	accu(dt): 0.860465	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.767442	accu(knn): 0.720930	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.720930	accu(knn): 0.720930	accu(dt): 0.651163	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.790698	accu(knn): 0.744186	accu(dt): 0.720930	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 0.883721	accu(knn): 0.906977	accu(dt): 0.953488	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.813953	accu(knn): 0.767442	accu(dt): 0.744186	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.790698	accu(knn): 0.767442	accu(dt): 0.744186	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 0.744186	accu(knn): 0.720930	accu(dt): 0.767442	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 0.790698	accu(knn): 0.813953	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.790698	accu(knn): 0.674419	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 0.813953	accu(knn): 0.720930	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 0.860465	accu(knn): 0.837209	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.744186	accu(knn): 0.720930	accu(dt): 0.744186	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.767442	accu(knn): 0.720930	accu(dt): 0.720930	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.837209	accu(knn): 0.674419	accu(dt): 0.767442	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.837209	accu(knn): 0.744186	accu(dt): 0.674419	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.837209	accu(knn): 0.744186	accu(dt): 0.837209	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 0.744186	accu(knn): 0.558140	accu(dt): 0.720930	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 0.767442	accu(knn): 0.744186	accu(dt): 0.744186	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 0.837209	accu(knn): 0.837209	accu(dt): 0.906977	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.813953	accu(knn): 0.813953	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.813953	accu(knn): 0.790698	accu(dt): 0.837209	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 0.744186	accu(knn): 0.697674	accu(dt): 0.697674	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.790698	accu(knn): 0.697674	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.813953	accu(knn): 0.883721	accu(dt): 0.906977	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.837209	accu(knn): 0.744186	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.837209	accu(knn): 0.767442	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 0.744186	accu(knn): 0.697674	accu(dt): 0.674419	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.744186	accu(knn): 0.767442	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.837209	accu(knn): 0.767442	accu(dt): 0.837209	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.883721	accu(knn): 0.860465	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 0.790698	accu(knn): 0.790698	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.744186	accu(knn): 0.674419	accu(dt): 0.744186	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 0.767442	accu(knn): 0.651163	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.883721	accu(knn): 0.837209	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 0.813953	accu(knn): 0.790698	accu(dt): 0.744186	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.837209	accu(knn): 0.767442	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.744186	accu(knn): 0.697674	accu(dt): 0.674419	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 0.813953	accu(knn): 0.767442	accu(dt): 0.767442	sel: 7	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 0.813953	accu(knn): 0.860465	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.906977	accu(knn): 0.837209	accu(dt): 0.813953	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.790698	accu(knn): 0.720930	accu(dt): 0.790698	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.744186	accu(knn): 0.767442	accu(dt): 0.697674	sel: 7	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.805116	avg accu(knn): 0.757209	accu(dt): 0.780930	sel: 7.000000	stability : 0.000000
+Class-1 accu(svm): 0.972857	avg accu(knn): 0.840714	accu(dt): 0.872143	sel: 7.000000	stability : 0.000000
+Class-2 accu(svm): 0.130000	avg accu(knn): 0.280000	accu(dt): 0.275000	sel: 7.000000	stability : 0.000000
+Class-3 accu(svm): 0.348000	avg accu(knn): 0.476000	accu(dt): 0.548000	sel: 7.000000	stability : 0.000000
+Class-4 accu(svm): 0.995000	avg accu(knn): 0.990000	accu(dt): 0.975000	sel: 7.000000	stability : 0.000000
+Class-5 accu(svm): 0.570000	avg accu(knn): 0.780000	accu(dt): 0.710000	sel: 7.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 7.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 7.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 7.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 7.000000	stability : 0.000000
+
+Dataset: CNS
+
+Number of selected feature: 1
+Iter---> 1: number----> 1:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.615385	accu(knn): 0.461538	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 0.538462	accu(knn): 0.538462	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.615385	accu(knn): 0.384615	accu(dt): 0.307692	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.615385	accu(knn): 0.461538	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.846154	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.769231	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.615385	accu(knn): 0.461538	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.538462	accu(knn): 0.461538	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.769231	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.769231	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.692308	accu(knn): 0.461538	accu(dt): 0.384615	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.615385	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.615385	accu(knn): 0.846154	accu(dt): 0.769231	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.615385	accu(knn): 0.384615	accu(dt): 0.538462	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.538462	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.769231	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.769231	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.615385	accu(knn): 0.384615	accu(dt): 0.538462	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.769231	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.692308	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.692308	accu(knn): 0.461538	accu(dt): 0.461538	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.769231	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.846154	sel: 1	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.615385	avg accu(knn): 0.607692	accu(dt): 0.627692	sel: 1.000000	stability : 0.000000
+Class-1 accu(svm): 0.985000	avg accu(knn): 0.692500	accu(dt): 0.720000	sel: 1.000000	stability : 0.000000
+Class-2 accu(svm): 0.024000	avg accu(knn): 0.472000	accu(dt): 0.480000	sel: 1.000000	stability : 0.000000
+Class-3 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 1.000000	stability : 0.000000
+Class-4 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 1.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 1.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 1.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 1.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 1.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 1.000000	stability : 0.000000
+
+Dataset: LEUKEMIA
+
+Number of selected feature: 2
+Iter---> 1: number----> 1:  accu: 0.800000	accu(knn): 0.933333	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 1.000000	accu(knn): 0.800000	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.800000	accu(knn): 0.866667	accu(dt): 0.866667	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.800000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.800000	accu(knn): 0.866667	accu(dt): 0.866667	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.933333	accu(knn): 0.800000	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 1.000000	accu(knn): 0.800000	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.866667	accu(knn): 1.000000	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.933333	accu(knn): 0.800000	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.800000	accu(knn): 0.866667	accu(dt): 0.866667	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 0.866667	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.866667	accu(knn): 1.000000	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.933333	accu(knn): 0.800000	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 0.800000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 0.866667	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.800000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 0.800000	accu(knn): 0.866667	accu(dt): 0.866667	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.800000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 0.800000	accu(knn): 0.866667	accu(dt): 0.866667	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.866667	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 0.866667	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.866667	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 0.800000	accu(knn): 0.866667	accu(dt): 0.866667	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 1.000000	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.800000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 2	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.901333	avg accu(knn): 0.914667	accu(dt): 0.949333	sel: 2.000000	stability : 0.000000
+Class-1 accu(svm): 0.820000	avg accu(knn): 0.952000	accu(dt): 0.976000	sel: 2.000000	stability : 0.000000
+Class-2 accu(svm): 0.942000	avg accu(knn): 0.896000	accu(dt): 0.936000	sel: 2.000000	stability : 0.000000
+Class-3 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 2.000000	stability : 0.000000
+Class-4 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 2.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 2.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 2.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 2.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 2.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 2.000000	stability : 0.000000
+
+Dataset: LEUKEMIA3C
+
+Number of selected feature: 4
+Iter---> 1: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.666667	accu(knn): 0.666667	accu(dt): 0.400000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.866667	accu(knn): 1.000000	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.866667	accu(knn): 0.933333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 0.666667	accu(knn): 0.666667	accu(dt): 0.600000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.866667	accu(knn): 0.733333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.866667	accu(knn): 0.800000	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.933333	accu(knn): 1.000000	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.933333	accu(knn): 0.800000	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.934667	avg accu(knn): 0.937333	accu(dt): 0.916000	sel: 4.000000	stability : 0.000000
+Class-1 accu(svm): 0.945000	avg accu(knn): 0.957500	accu(dt): 0.907500	sel: 4.000000	stability : 0.000000
+Class-2 accu(svm): 0.840000	avg accu(knn): 0.790000	accu(dt): 0.940000	sel: 4.000000	stability : 0.000000
+Class-3 accu(svm): 0.956000	avg accu(knn): 0.964000	accu(dt): 0.920000	sel: 4.000000	stability : 0.000000
+Class-4 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+
+Dataset: LEUKEMIA4C
+
+Number of selected feature: 4
+Iter---> 1: number----> 1:  accu: 0.625000	accu(knn): 0.875000	accu(dt): 0.625000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 0.812500	accu(knn): 0.562500	accu(dt): 0.625000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.750000	accu(knn): 0.875000	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 0.812500	accu(knn): 0.875000	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.812500	accu(knn): 0.875000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 0.750000	accu(knn): 0.937500	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.750000	accu(knn): 0.750000	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 0.875000	accu(knn): 0.875000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.812500	accu(knn): 0.937500	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.812500	accu(knn): 0.875000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.625000	accu(knn): 0.937500	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 0.875000	accu(knn): 0.687500	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.812500	accu(knn): 0.875000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.812500	accu(knn): 0.812500	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 0.812500	accu(knn): 0.812500	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 0.687500	accu(knn): 0.937500	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.812500	accu(knn): 0.625000	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 0.875000	accu(knn): 0.875000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 0.937500	accu(knn): 0.937500	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.812500	accu(knn): 0.937500	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.625000	accu(knn): 0.875000	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.750000	accu(knn): 0.875000	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.812500	accu(knn): 0.875000	accu(dt): 0.687500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.750000	accu(knn): 1.000000	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 0.812500	accu(knn): 0.875000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 0.625000	accu(knn): 0.812500	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 0.875000	accu(knn): 0.812500	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.875000	accu(knn): 1.000000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.812500	accu(knn): 0.812500	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 0.812500	accu(knn): 0.875000	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.687500	accu(knn): 0.875000	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.750000	accu(knn): 0.687500	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.750000	accu(knn): 1.000000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.937500	accu(knn): 0.875000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 0.750000	accu(knn): 0.812500	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.812500	accu(knn): 0.812500	accu(dt): 0.937500	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.750000	accu(knn): 0.875000	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.875000	accu(knn): 0.937500	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 0.750000	accu(knn): 0.750000	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.750000	accu(knn): 0.687500	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 0.750000	accu(knn): 0.812500	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.750000	accu(knn): 0.625000	accu(dt): 0.875000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 0.750000	accu(knn): 0.875000	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.750000	accu(knn): 0.750000	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.812500	accu(knn): 0.812500	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 0.812500	accu(knn): 0.937500	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 0.812500	accu(knn): 0.812500	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.687500	accu(knn): 0.875000	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.812500	accu(knn): 0.875000	accu(dt): 0.812500	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.812500	accu(knn): 0.750000	accu(dt): 0.750000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.783750	avg accu(knn): 0.842500	accu(dt): 0.836250	sel: 4.000000	stability : 0.000000
+Class-1 accu(svm): 0.792000	avg accu(knn): 0.872000	accu(dt): 0.864000	sel: 4.000000	stability : 0.000000
+Class-2 accu(svm): 0.420000	avg accu(knn): 0.640000	accu(dt): 0.680000	sel: 4.000000	stability : 0.000000
+Class-3 accu(svm): 0.170000	avg accu(knn): 0.600000	accu(dt): 0.600000	sel: 4.000000	stability : 0.000000
+Class-4 accu(svm): 0.977500	avg accu(knn): 0.910000	accu(dt): 0.897500	sel: 4.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+
+Dataset: MLL
+
+Number of selected feature: 4
+Iter---> 1: number----> 1:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.666667	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 0.866667	accu(knn): 0.800000	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 0.800000	accu(knn): 0.733333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.866667	accu(knn): 0.933333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.800000	accu(knn): 0.800000	accu(dt): 0.733333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 0.800000	accu(knn): 0.733333	accu(dt): 0.666667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.866667	accu(knn): 0.800000	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 0.800000	accu(knn): 0.733333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.733333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.933333	accu(knn): 0.666667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.666667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 0.733333	accu(knn): 0.800000	accu(dt): 0.666667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.666667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.866667	accu(knn): 0.933333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.933333	accu(knn): 0.666667	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.866667	accu(knn): 0.800000	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.800000	accu(knn): 0.733333	accu(dt): 0.733333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 0.733333	accu(knn): 0.800000	accu(dt): 0.666667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.600000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.666667	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.800000	accu(knn): 0.733333	accu(dt): 0.733333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.600000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.666667	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.933333	accu(knn): 0.866667	accu(dt): 0.600000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 0.933333	accu(knn): 0.800000	accu(dt): 0.733333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.733333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.866667	accu(knn): 0.866667	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.866667	sel: 4	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 0.933333	accu(knn): 0.800000	accu(dt): 0.733333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.933333	accu(knn): 0.933333	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.866667	accu(knn): 0.800000	accu(dt): 0.800000	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 1.000000	accu(knn): 0.933333	accu(dt): 0.933333	sel: 4	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.902667	avg accu(knn): 0.860000	accu(dt): 0.790667	sel: 4.000000	stability : 0.000000
+Class-1 accu(svm): 0.780000	avg accu(knn): 0.710000	accu(dt): 0.590000	sel: 4.000000	stability : 0.000000
+Class-2 accu(svm): 0.960000	avg accu(knn): 0.946667	accu(dt): 0.916667	sel: 4.000000	stability : 0.000000
+Class-3 accu(svm): 0.932000	avg accu(knn): 0.876000	accu(dt): 0.800000	sel: 4.000000	stability : 0.000000
+Class-4 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 4.000000	stability : 0.000000
+
+Dataset: OVARIAN
+
+Number of selected feature: 3
+Iter---> 1: number----> 1:  accu: 0.942308	accu(knn): 0.903846	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 0.961538	accu(knn): 0.923077	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 0.980769	accu(knn): 0.923077	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 0.961538	accu(knn): 0.923077	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 0.980769	accu(knn): 0.923077	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 0.980769	accu(knn): 0.923077	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 0.980769	accu(knn): 0.923077	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.942308	accu(knn): 0.923077	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.942308	accu(knn): 0.923077	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.942308	accu(knn): 0.923077	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 1.000000	accu(knn): 1.000000	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.942308	accu(knn): 0.923077	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.942308	accu(knn): 0.923077	accu(dt): 0.942308	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.961538	accu(knn): 0.961538	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 0.980769	accu(knn): 0.980769	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 1.000000	accu(knn): 0.980769	accu(dt): 1.000000	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.961538	accu(knn): 0.942308	accu(dt): 0.961538	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.961538	accu(knn): 0.961538	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.961538	accu(knn): 0.961538	accu(dt): 0.980769	sel: 3	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.975385	avg accu(knn): 0.958846	accu(dt): 0.975385	sel: 3.000000	stability : 0.000000
+Class-1 accu(svm): 0.994545	avg accu(knn): 0.960000	accu(dt): 0.986061	sel: 3.000000	stability : 0.000000
+Class-2 accu(svm): 0.942105	avg accu(knn): 0.956842	accu(dt): 0.956842	sel: 3.000000	stability : 0.000000
+Class-3 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 3.000000	stability : 0.000000
+Class-4 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 3.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 3.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 3.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 3.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 3.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 3.000000	stability : 0.000000
+
+Dataset: CNS
+
+Number of selected feature: 5
+Iter---> 1: number----> 1:  accu: 0.692308	accu(knn): 0.692308	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 1: number----> 2:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 3:  accu: 0.615385	accu(knn): 0.615385	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 4:  accu: 0.538462	accu(knn): 0.769231	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 1: number----> 5:  accu: 0.692308	accu(knn): 0.615385	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 1:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 2: number----> 2:  accu: 0.615385	accu(knn): 0.846154	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 3:  accu: 0.538462	accu(knn): 0.692308	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 4:  accu: 0.846154	accu(knn): 0.769231	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 2: number----> 5:  accu: 0.769231	accu(knn): 0.769231	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 1:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 3: number----> 2:  accu: 0.538462	accu(knn): 0.538462	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 3:  accu: 0.769231	accu(knn): 0.692308	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 4:  accu: 0.769231	accu(knn): 0.923077	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 3: number----> 5:  accu: 0.769231	accu(knn): 0.692308	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 1:  accu: 0.538462	accu(knn): 0.769231	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 4: number----> 2:  accu: 0.846154	accu(knn): 0.769231	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 3:  accu: 0.846154	accu(knn): 0.846154	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 4:  accu: 0.538462	accu(knn): 0.615385	accu(dt): 0.461538	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 4: number----> 5:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 1:  accu: 0.769231	accu(knn): 0.769231	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 5: number----> 2:  accu: 0.769231	accu(knn): 0.615385	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 3:  accu: 0.538462	accu(knn): 0.769231	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 4:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 5: number----> 5:  accu: 0.692308	accu(knn): 0.769231	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 1:  accu: 0.846154	accu(knn): 0.692308	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 6: number----> 2:  accu: 0.615385	accu(knn): 0.461538	accu(dt): 0.615385	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 3:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 4:  accu: 0.615385	accu(knn): 0.846154	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 6: number----> 5:  accu: 0.692308	accu(knn): 0.615385	accu(dt): 0.461538	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 1:  accu: 0.538462	accu(knn): 0.846154	accu(dt): 0.461538	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 7: number----> 2:  accu: 0.615385	accu(knn): 0.692308	accu(dt): 0.538462	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 3:  accu: 0.615385	accu(knn): 0.769231	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 4:  accu: 0.769231	accu(knn): 0.615385	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 7: number----> 5:  accu: 0.846154	accu(knn): 0.692308	accu(dt): 0.846154	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 1:  accu: 0.615385	accu(knn): 0.538462	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 8: number----> 2:  accu: 0.692308	accu(knn): 0.538462	accu(dt): 0.461538	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 3:  accu: 0.692308	accu(knn): 0.769231	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 4:  accu: 0.923077	accu(knn): 0.769231	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 8: number----> 5:  accu: 0.692308	accu(knn): 0.692308	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 1:  accu: 0.769231	accu(knn): 0.615385	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 9: number----> 2:  accu: 0.769231	accu(knn): 0.615385	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 3:  accu: 0.769231	accu(knn): 0.615385	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 4:  accu: 0.769231	accu(knn): 0.538462	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 9: number----> 5:  accu: 0.692308	accu(knn): 0.769231	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 1:  accu: 0.769231	accu(knn): 0.769231	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: NaN
+Iter---> 10: number----> 2:  accu: 0.923077	accu(knn): 0.769231	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 3:  accu: 0.692308	accu(knn): 0.615385	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 4:  accu: 0.769231	accu(knn): 0.923077	accu(dt): 0.692308	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+Iter---> 10: number----> 5:  accu: 0.615385	accu(knn): 0.923077	accu(dt): 0.769231	sel: 5	stability: 0.000000	c_avg_stabili: 0.000000
+avg accu(svm): 0.693846	avg accu(knn): 0.706154	accu(dt): 0.663077	sel: 5.000000	stability : 0.000000
+Class-1 accu(svm): 0.867500	avg accu(knn): 0.762500	accu(dt): 0.765000	sel: 5.000000	stability : 0.000000
+Class-2 accu(svm): 0.416000	avg accu(knn): 0.616000	accu(dt): 0.500000	sel: 5.000000	stability : 0.000000
+Class-3 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-4 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-5 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-6 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-7 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-8 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
+Class-9 accu(svm): NaN	avg accu(knn): NaN	accu(dt): NaN	sel: 5.000000	stability : 0.000000
