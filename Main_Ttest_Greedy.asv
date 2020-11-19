@@ -7,10 +7,8 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
 % for dataset = ['p' 'a' 'r' '$' 'n' '-' '!' 'l' 'z' '#' 'o' 'g' 'm' 'k' 'f' 'q' 'j' 'y' 'd' 'x' 's' ')' 'c' '>' 'b' '4' 'v' '(' 'i' '?' ',' '&' '8' '@' '<' 'e' '3' '1' '%' '0' '7' 'w' '^' '6' '*' 'h' '2' 'u' 't' '9' '5']
 % for dataset = ['a' 'r' '-' '!' 'l' 'o' 'g' 'k' 'q' 'j' 's' ')' 'c' 'b' '4' '?' ',' '&' '8' '@' '<' 'e' '3' '6' '*' 'u']
 % for dataset = ['<' 'e' '3']
-%for dataset = ['a' 'r' '-' 'l'  'o' 'g'  'q' 'j' 's' ')' 'c' 'b' '4' '?' '3' '@' '+' '!' '#' '_' '8']   
- for dataset = ['8' ]
-    
-    %for dataset = ['-']
+%for dataset = ['a' 'r' '-' 'l'  'o' 'g'  'q' 'j' 's' ')' 'c' 'b' '4' '?' '3' '@' '+' '!' '#' '_' '8']
+for dataset = [ '_' ]
     cc = power(2,-5);
     number_neighbours=5;
     no_of_fold=10;
@@ -286,7 +284,6 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
     fclose(fid);
     y = data(:,1); %class id
     xa = data(:, 2:end); %feature
-    
     %     Xmax = max(xa);
     %     Xmin = min(xa);
     %     Xdiff = Xmax-Xmin;
@@ -312,6 +309,8 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
     if count>1
         xa(:,temp1)=[];
     end
+    
+    temp = xa;
     clearvars temp1 count ;
     % xa = my_norm(xa);
     r_val = zeros(size(xa,2),1);
@@ -319,6 +318,12 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
     
     for kk=1:no_of_fold
         %         tic
+        matfile = strcat('mat\',name,'.mat');
+        pp = load(matfile);
+        features = pp.aa{:,kk};
+        xa = temp;
+        xa = xa(:,features);
+        
         tr_idx = [];
         ts_idx = [];
         
@@ -342,6 +347,16 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
         ts_fea = zeros(length(ts_idx), dim);
         ts_label = zeros(length(ts_idx), 1);
         
+        tr_fea_original = zeros(length(tr_idx), dim);
+        tr_label_original = zeros(length(tr_idx), 1);
+        ts_fea_original = zeros(length(ts_idx), dim);
+        ts_label_original = zeros(length(ts_idx), 1);
+        
+        tr_fea_original = temp(tr_idx,:);
+        tr_label_original = Sapp(tr_idx);
+        ts_fea_original = temp(ts_idx,:);
+        ts_label_original = Sapp(ts_idx);
+        
         tr_fea = xa(tr_idx, :);
         tr_label = Sapp(tr_idx);
         ts_fea = xa(ts_idx, :);
@@ -352,8 +367,10 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
         Xdiff = Xmax-Xmin;
         
         fea_mean = mean(tr_fea);
+        fea_mean_original = mean(tr_fea_original);
+        fea_diff_original = max(tr_fea_original)- min(tr_fea_original);
         tr_fea = bsxfun(@rdivide,bsxfun(@minus,tr_fea,fea_mean),Xdiff);
-        
+        tr_fea_original = bsxfun(@rdivide,bsxfun(@minus,tr_fea_original,fea_mean_original),fea_diff_original);
         %%%%%%%%%%%%%%%%%%%%% Equal Width %%%%%%%%%%%%%%%%%%%%%%%%%%%%
         %                 [tr_fea edges] = equal_width_quantization(tr_fea, 5);
         %                 for ii=1:size(tr_fea,2)
@@ -371,19 +388,29 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
         %             ts_fea = newts_fea;
         %
         
-        matfile = strcat('mat\',name,'_greedy','.mat');
+        matfile = strcat('mat\',name,'_pval_greedy','.mat');
         
         
-%         [sel_feature] = selection_ttest(tr_fea, tr_label);
-%         aa{kk}= sel_feature;
-%         %         tt{kk} = score;
-%         save(matfile,'aa');
+%         if kk < 8
+%             pp = load('waveform_pval.mat');
+%             sel_feature = pp.aa{:,kk};
+%         else 
+%             [sel_feature] = feature_rank_pval_greedy(tr_fea, tr_label,7);
+%         end
+        
+        
+        %[sel_feature] = feature_rank_pval_greedy(tr_fea, tr_label,7);
+        %[sel_feature] = feature_rank_val_pval(tr_fea, tr_label,7);
+        sel_feature = features(sel_feature);
+        aa{kk}= sel_feature;
+        %         tt{kk} = score;
+        save(matfile,'aa');
         
         %
-        [sel_feature, score] = relieff(tr_fea,tr_label,7,'method','classification');
-                        pp = load(matfile);
-                no_feature = size(pp.aa{:,kk},2);
-          sel_feature = sel_feature(1:no_feature);
+        %[sel_feature, score] = relieff(tr_fea,tr_label,7,'method','classification');
+        % % %                 pp = load(matfile);
+        % % %         no_feature = size(pp.aa{:,kk},2);
+        %   sel_feature = sel_feature(1:4);
         %         [tr_fea edges] = equal_width_quantization(tr_fea, 5);
         %         for ii=1:size(tr_fea,2)
         %             discretized(:,ii) = discretize(ts_fea(:,ii), edges(:,ii));
@@ -405,10 +432,11 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
         
         
         ts_fea = bsxfun(@rdivide,bsxfun(@minus,ts_fea,fea_mean),Xdiff);
+        ts_fea_original = bsxfun(@rdivide,bsxfun(@minus,ts_fea_original,fea_mean_original),fea_diff_original);
         
-        tr_fea1 = tr_fea(:,sel_feature);
+        tr_fea1 = tr_fea_original(:,sel_feature);
         tr_label = Sapp(tr_idx);
-        ts_fea1 = ts_fea(:,sel_feature);
+        ts_fea1 = ts_fea_original(:,sel_feature);
         ts_label = Sapp(ts_idx);
         
         

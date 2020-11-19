@@ -1,4 +1,4 @@
-function selected_fea = feature_rank(xa, y)
+function selected_fea = feature_rank_combination(xa, y)
 total_fea = size(xa,2);
 no_of_data = size(xa,1);
 idx_val = 0;
@@ -7,7 +7,7 @@ idx_val = 0;
 %    [r_val(i)] = relieff_test(xa(:,i), y,xa,7,'method','classification');
 % end
 
-[test,r_val]=relieff(xa,y,7,'method','classification');
+[test,r_val]=relieff_our(xa,y,7,'method','classification');
 [val1, idx1] = max(r_val);
 selected_fea = [];
 selected_fea = [selected_fea idx1];
@@ -22,7 +22,7 @@ for jj = 1:size(remain, 2)
     for j = 1:size(remain1, 2)
         zz=[];
         zz = [selected_fea remain1(j)];
-        [r_val1(j)] = relieff_test(xa(:,zz),y,xa,7,'method','classification');
+        [r_val1(j)] = relieff_complementary(xa(:,zz),y,xa,7,'method','classification');
        % [r_val1(j)] = relieff_test(xa(:,zz),y,7,'method','classification');
         index_be(count) = remain1(j);
         count = count+1;

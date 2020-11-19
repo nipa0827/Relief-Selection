@@ -7,10 +7,8 @@ addpath('D:\MS THESIS\code\Relief\data\balanced data');
 % for dataset = ['p' 'a' 'r' '$' 'n' '-' '!' 'l' 'z' '#' 'o' 'g' 'm' 'k' 'f' 'q' 'j' 'y' 'd' 'x' 's' ')' 'c' '>' 'b' '4' 'v' '(' 'i' '?' ',' '&' '8' '@' '<' 'e' '3' '1' '%' '0' '7' 'w' '^' '6' '*' 'h' '2' 'u' 't' '9' '5']
 % for dataset = ['a' 'r' '-' '!' 'l' 'o' 'g' 'k' 'q' 'j' 's' ')' 'c' 'b' '4' '?' ',' '&' '8' '@' '<' 'e' '3' '6' '*' 'u']
 % for dataset = ['<' 'e' '3']
-for dataset = ['a' 'r' '-'   'o' 'g'  'q' 'j' 's' ')' 'c' 'b' '4' '?' '3' '#' '_' '@' '+' '!' ]
-%for dataset = [ 'q' 'j' 's' ')' 'c' 'b' '4' '?' '3' '#' '_' '@' '+' '!' ]
-    
-    %for dataset = ['-']
+%for dataset = ['a' 'r' '-' 'l'  'o' 'g'  'q' 'j' 's' ')' 'c' 'b' '4' '?' '3' '@' '+' '!' '#' '_' '8']
+for dataset = [ '8' ]
     cc = power(2,-5);
     number_neighbours=5;
     no_of_fold=10;
@@ -390,10 +388,19 @@ for dataset = ['a' 'r' '-'   'o' 'g'  'q' 'j' 's' ')' 'c' 'b' '4' '?' '3' '#' '_
         %             ts_fea = newts_fea;
         %
         
-        matfile = strcat('mat\',name,'_greedy','.mat');
+        matfile = strcat('mat\',name,'_pval_greedy','.mat');
         
         
-        [sel_feature] = feature_rank(tr_fea, tr_label,7);
+%         if kk < 8
+%             pp = load('waveform_pval.mat');
+%             sel_feature = pp.aa{:,kk};
+%         else 
+%             [sel_feature] = feature_rank_pval_greedy(tr_fea, tr_label,7);
+%         end
+        
+        
+        [sel_feature] = feature_rank_pval_greedy(tr_fea, tr_label,7);
+        %[sel_feature] = feature_rank_val_pval(tr_fea, tr_label,7);
         sel_feature = features(sel_feature);
         aa{kk}= sel_feature;
         %         tt{kk} = score;
